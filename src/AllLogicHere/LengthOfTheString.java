@@ -3,7 +3,18 @@ package AllLogicHere;
 public class LengthOfTheString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		String input = "java";
+		int data = input.length();
+		if(data %2 == 0)
+		{
+			System.out.println(data);
+			System.out.println("even string");
+		
+		}else {
+			
+		
+		System.out.println("odd string");
+		}
 
 	}
 
