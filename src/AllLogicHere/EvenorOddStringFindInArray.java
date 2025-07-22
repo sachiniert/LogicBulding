@@ -13,9 +13,8 @@ public class EvenorOddStringFindInArray {
 			if(word.length()%2 ==0) {
 				
 				System.out.println(word);
-			}else {
-				System.out.println(word);
 			}
+			
 			
 		}
 		
