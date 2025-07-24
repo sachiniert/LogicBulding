@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class FrequencyOfCharacterInString {
 
 	public static void main(String[] args) {
+		// very important question
 		String input = "madam";
 		HashMap<Character, Integer> frequencyMap = new HashMap<Character, Integer>();
 
@@ -13,7 +14,7 @@ public class FrequencyOfCharacterInString {
 		
 		//traverse this char array ??
 		for(char character: inputArray) {
-			
+			//map me  value put karne ke liye
 			frequencyMap.put(character, frequencyMap.getOrDefault(character, 0)+1);
 			
 			
