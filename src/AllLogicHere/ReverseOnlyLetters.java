@@ -26,8 +26,8 @@ public class ReverseOnlyLetters {
 				temp = inputArray[left];
 				inputArray[left] = inputArray[right];
 				inputArray[right] = temp;
-//				left++;
-//				right--;
+				left++;
+				right--;
 			}
 			System.out.println("output "+ Arrays.toString(inputArray));
 			System.out.println("output " + new String(inputArray));
