@@ -2,7 +2,7 @@ package StringLogic;
 
 import java.util.Scanner;
 
-public class ReverseString {
+public class ReverseString{
 
 	public static void main(String[] args) {
 		String rev;
@@ -17,7 +17,7 @@ public class ReverseString {
 		}
 		System.out.println(rev2);
 		
-
+		
 	}
 
 }
